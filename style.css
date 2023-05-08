@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#screen{
+    text-align: right;
+    border: none;
+    outline: none;
+    font-size: 28px;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+#delall,#btn,#value_btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 26px;
+    background-color: orange;
+    color: white;
+    border: none;
+    outline: none;
+}
+#del{
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+}
+#delall,#SR,#sqr{
+    background-color: rgb(255, 18, 18);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 26px;
+    color: white;
+    border: none;
+    outline: none;
+}
+#value_btn:nth-child(17){
+    width: 120px;
+    border-radius: 30px;
+}
+.content{
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding:0 20px ;
+}
+.buttons{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.del_btns{
+    display: flex;
+    justify-content: right;
+}
+#value_btn:nth-child(16),#value_btn:nth-child(12),#value_btn:nth-child(4),#value_btn:nth-child(8){
+    background-color: grey;
+}
+
